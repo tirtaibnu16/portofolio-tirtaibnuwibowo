@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="hybrid">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tirta Ibnu Wibowo | Junior Web Developer - SMKN 1 Kawali</title>
+  <meta name="description"
+    content="Portofolio resmi Tirta Ibnu Wibowo - Junior Web Developer & Siswa Rekayasa Perangkat Lunak (RPL) SMKN 1 Kawali dengan fokus Full-Stack Web Development (Laravel, MySQL, Tailwind CSS).">
+  <meta name="keywords"
+    content="Tirta Ibnu Wibowo, Junior Web Developer, SMKN 1 Kawali, RPL, Full-Stack Web Development, Laravel, MySQL, Tailwind CSS, Panjalu Ciamis">
+  <meta name="author" content="Tirta Ibnu Wibowo">
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.85em%22 font-size=%2280%22>⚡</text></svg>">
+
+  <!-- Fonts: Space Grotesk (Modern Tech), Outfit (Clean Body), JetBrains Mono (Terminal Code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6.5.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Tech Dot Matrix & Grid Background -->
+  <div class="tech-grid-overlay"></div>
+
+  <!-- Modern Floating Nav Dock -->
+  <header class="dock-navbar" id="dockNavbar">
+    <div class="dock-container">
+      <a href="#hero" class="dock-brand">
+        <span class="brand-monogram">TIW</span>
+        <div class="brand-info">
+          <span class="brand-name">TIRTA IBNU WIBOWO</span>
+          <span class="brand-sub">JUNIOR WEB DEVELOPER &bull; SMKN 1 KAWALI</span>
+        </div>
+      </a>
+
+      <!-- Center Nav Links -->
+      <nav class="dock-nav-links" id="dockNavLinks">
+        <a href="#bento-profile" class="nav-item active"><i class="fa-solid fa-shapes"></i> <span>Profil</span></a>
+        <a href="#skills-matrix" class="nav-item"><i class="fa-solid fa-code"></i> <span>Keahlian</span></a>
+        <a href="#project-vault" class="nav-item"><i class="fa-solid fa-briefcase"></i> <span>Proyek</span></a>
+        <a href="#certifications" class="nav-item"><i class="fa-solid fa-award"></i> <span>Sertifikasi</span></a>
+        <a href="#contact-hub" class="nav-item"><i class="fa-solid fa-paper-plane"></i> <span>Kontak</span></a>
+      </nav>
+
+      <!-- Right Action: Download CV & WhatsApp -->
+      <div class="dock-actions">
+        <a href="CV_Tirta_Ibnu_Wibowo.pdf" target="_blank" class="btn-cv-pill" title="Unduh Curriculum Vitae (PDF)">
+          <i class="fa-solid fa-file-pdf"></i> <span>Unduh CV</span>
+        </a>
+
+        <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20melihat%20CV%20dan%20portofolio%20kamu!"
+          target="_blank" rel="noopener noreferrer" class="btn-wa-pill">
+          <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+        </a>
+
+        <button class="dock-mobile-toggle" id="dockMobileToggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- HERO SECTION: Terminal & Personal Cockpit -->
+    <section class="hero-cockpit" id="hero">
+      <div class="container">
+
+        <div class="hero-top-ribbon">
+          <div class="hero-author-pill">
+            <img src="tirta.jpg" alt="Tirta Ibnu Wibowo" class="author-pill-img">
+            <span>Tirta Ibnu Wibowo</span>
+          </div>
+          <span class="tag-terminal"><i class="fa-solid fa-terminal"></i> dev@tirta:~/junior-web-dev</span>
+          <span class="tag-status"><i class="fa-solid fa-location-dot"></i> Panjalu, Ciamis, Jawa Barat</span>
+          <span class="tag-status"><i class="fa-solid fa-circle-check"></i> Siap Kerja / Magang Full-Stack</span>
+        </div>
+
+        <div class="hero-main-layout">
+          <!-- Left: Big Impact Typography -->
+          <div class="hero-headline-col">
+            <h1 class="hero-giant-title">
+              JUNIOR WEB DEVELOPER<br>
+              <span class="title-highlight">FULL-STACK WEB</span> DEVELOPMENT.
+            </h1>
+
+            <p class="hero-lead-text">
+              Siswa <strong>Rekayasa Perangkat Lunak (RPL) SMKN 1 Kawali</strong> dengan fokus pada <strong>Full-Stack Web Development</strong>. 
+              Menguasai teknologi web seperti <strong>PHP (Laravel), HTML/CSS, Tailwind CSS, JavaScript, dan MySQL</strong>. 
+              Terbiasa memproses alur kerja dari perancangan UI/UX hingga pengujian sistem secara terstruktur.
+            </p>
+
+            <div class="hero-cta-cluster">
+              <a href="CV_Tirta_Ibnu_Wibowo.pdf" target="_blank" class="btn-hero-primary">
+                <i class="fa-solid fa-file-arrow-down"></i> Unduh / Lihat CV (PDF)
+              </a>
+              <a href="#contact-hub" class="btn-hero-wa">
+                <i class="fa-solid fa-paper-plane"></i> Hubungi Tirta
+              </a>
+              <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20melihat%20CV%20dan%20portofolio%20kamu!"
+                target="_blank" rel="noopener noreferrer" class="btn-hero-copy">
+                <i class="fa-brands fa-whatsapp"></i> Chat 0813-2032-1738
+              </a>
+              <button class="btn-hero-copy" id="btnCopyPhone" data-phone="081320321738" title="Salin nomor HP">
+                <i class="fa-regular fa-copy"></i> Salin No. HP
+              </button>
+            </div>
+
+            <!-- Fast Stat Badges from CV -->
+            <div class="hero-kpi-row">
+              <div class="kpi-box">
+                <span class="kpi-num">Junior Web Dev</span>
+                <span class="kpi-desc">Full-Stack Web Focus</span>
+              </div>
+              <div class="kpi-divider"></div>
+              <div class="kpi-box">
+                <span class="kpi-num">SMKN 1 Kawali</span>
+                <span class="kpi-desc">Rekayasa Perangkat Lunak</span>
+              </div>
+              <div class="kpi-divider"></div>
+              <div class="kpi-box">
+                <span class="kpi-num">Laravel & MySQL</span>
+                <span class="kpi-desc">Fokus Belajar Web</span>
+              </div>
+              <div class="kpi-divider"></div>
+              <div class="kpi-box">
+                <span class="kpi-num">UKK RPL 2026</span>
+                <span class="kpi-desc">Sertifikasi Kompetensi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Live Terminal Widget -->
+          <div class="hero-terminal-col">
+            <div class="terminal-window">
+              <div class="terminal-bar">
+                <div class="window-controls">
+                  <span class="dot close"></span>
+                  <span class="dot min"></span>
+                  <span class="dot max"></span>
+                </div>
+                <span class="terminal-filename">tirta_cv_profile.sh</span>
+                <span class="terminal-badge">BASH &bull; UTF-8</span>
+              </div>
+
+              <div class="terminal-body" id="terminalOutput">
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></div>
+                <div class="t-response t-accent">Tirta Ibnu Wibowo &bull; Junior Web Developer</div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">cat cv_profile.json</span></div>
+                <div class="t-code">
+                  {<br>
+                  &nbsp;&nbsp;<span class="t-key">"pendidikan"</span>: <span class="t-val">"SMKN 1 KAWALI"</span>,<br>
+                  &nbsp;&nbsp;<span class="t-key">"jurusan"</span>: <span class="t-val">"Rekayasa Perangkat Lunak (RPL)"</span>,<br>
+                  &nbsp;&nbsp;<span class="t-key">"domisili"</span>: <span class="t-val">"Panjalu, Ciamis, Jawa Barat"</span>,<br>
+                  &nbsp;&nbsp;<span class="t-key">"fokus"</span>: <span class="t-val">"Full-Stack Web Development"</span>,<br>
+                  &nbsp;&nbsp;<span class="t-key">"sertifikasi"</span>: <span class="t-val t-success">"UKK RPL (Sept 2026)"</span><br>
+                  }
+                </div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">get-skills --hard</span></div>
+                <div class="t-response">
+                  HTML/CSS &bull; Tailwind CSS &bull; JavaScript &bull; PHP (Laravel) &bull; MySQL
+                </div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">get-skills --soft</span></div>
+                <div class="t-response">
+                  Team Work &bull; Communication &bull; Problem Solving &bull; Time Management
+                </div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">cat projects_completed.log</span></div>
+                <div class="t-response">
+                  [1] Website Company Profile (HTML, CSS/Tailwind, JavaScript)<br>
+                  [2] Sistem Pengolahan Data Siswa (PHP Laravel, MySQL, MVC)<br>
+                  [3] Website Penjualan Outfit Casual (E-Commerce & WA Checkout)
+                </div>
+
+                <div class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">ping contact-info</span></div>
+                <div class="t-response">
+                  <i class="fa-brands fa-whatsapp text-green"></i> 0813-2032-1738 &bull; <i class="fa-solid fa-envelope text-orange"></i> tirtaibnu5055@gmail.com
+                </div>
+
+                <div class="t-line cursor-line"><span class="t-prompt">$</span> <span class="t-cursor">_</span></div>
+              </div>
+
+              <div class="terminal-footer">
+                <span>System: Online &bull; CV Verified</span>
+                <span class="uptime">SMKN 1 KAWALI &bull; PANJALU, CIAMIS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- BENTO GRID SHOWCASE SECTION -->
+    <section class="bento-section" id="bento-profile">
+      <div class="container">
+
+        <div class="section-title-wrap">
+          <div class="sub-badge"><i class="fa-solid fa-id-card"></i> Profil & Ringkasan CV</div>
+          <h2 class="title-modern">Ringkasan Diri <span class="accent-text">Tirta Ibnu Wibowo</span></h2>
+          <p class="section-intro">Profil profesional yang diselaraskan secara langsung dengan dokumen Curriculum Vitae (CV) resmi.</p>
+        </div>
+
+        <div class="bento-grid">
+
+          <!-- Bento Box 1: Profile Card (Big Card) -->
+          <div class="bento-item bento-profile" data-category="all code">
+            <div class="bento-card-header">
+              <span class="bento-tag"><i class="fa-solid fa-user-check"></i> Ringkasan Saya</span>
+              <span class="bento-tag-secondary">JUNIOR WEB DEVELOPER</span>
+            </div>
+
+            <div class="profile-hero-content">
+              <div class="profile-avatar-box">
+                <div class="avatar-ring">
+                  <img src="tirta.jpg" alt="Tirta Ibnu Wibowo" class="avatar-photo">
+                </div>
+                <div class="online-indicator" title="Tirta siap dihubungi untuk kerja / magang"></div>
+              </div>
+
+              <div class="profile-bio-text">
+                <h3>Tirta Ibnu Wibowo</h3>
+                <p class="role-subtitle"><i class="fa-solid fa-code"></i> Junior Web Developer &bull; Siswa Rekayasa Perangkat Lunak (RPL)</p>
+                <p class="bio-paragraph">
+                  Siswa <strong>Rekayasa Perangkat Lunak SMKN 1 Kawali</strong> dengan fokus pada <strong>Full-Stack Web Development</strong>. 
+                  Menguasai teknologi web seperti <strong>PHP (Laravel), HTML/CSS, Tailwind CSS, JavaScript, dan MySQL</strong>. 
+                  Terbiasa memproses alur kerja dari perancangan UI/UX hingga pengujian sistem secara terstruktur.
+                </p>
+              </div>
+            </div>
+
+            <div class="profile-quick-contacts">
+              <a href="mailto:tirtaibnu5055@gmail.com" class="p-contact-chip">
+                <i class="fa-solid fa-envelope"></i> tirtaibnu5055@gmail.com
+              </a>
+              <a href="https://wa.me/6281320321738" target="_blank" rel="noopener noreferrer" class="p-contact-chip">
+                <i class="fa-brands fa-whatsapp"></i> 0813-2032-1738
+              </a>
+              <span class="p-contact-chip location-chip">
+                <i class="fa-solid fa-location-dot"></i> Panjalu, Ciamis, Jawa Barat
+              </span>
+              <a href="CV_Tirta_Ibnu_Wibowo.pdf" target="_blank" class="p-contact-chip cv-chip">
+                <i class="fa-solid fa-file-pdf"></i> Unduh CV (PDF)
+              </a>
+            </div>
+          </div>
+
+          <!-- Bento Box 2: SMKN 1 KAWALI Card -->
+          <div class="bento-item bento-school" data-category="all code">
+            <div class="bento-card-header">
+              <span class="bento-tag"><i class="fa-solid fa-graduation-cap"></i> Pendidikan</span>
+            </div>
+            <div class="school-card-body">
+              <div class="school-crest-icon"><i class="fa-solid fa-school-flag"></i></div>
+              <h4>SMKN 1 KAWALI</h4>
+              <p class="school-jurusan">Kompetensi Keahlian: <strong>Rekayasa Perangkat Lunak (RPL)</strong></p>
+              <p class="school-motto">"Mempersiapkan lulusan vokasi yang unggul dalam Full-Stack Web Development, berlogika kuat, dan adaptif terhadap industri teknologi."</p>
+              <div class="school-pills">
+                <span><i class="fa-solid fa-check-double"></i> Kurikulum Vokasi RPL Terakreditasi</span>
+                <span><i class="fa-solid fa-laptop-code"></i> Praktikum Lab IT & Web Development</span>
+                <span><i class="fa-solid fa-shield-halved"></i> Arsitektur MVC & Pengujian Sistem</span>
+                <span><i class="fa-solid fa-user-check"></i> Siap Kerja & Magang Industri</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento Box 3: Sertifikasi & Lisensi Resmi -->
+          <div class="bento-item bento-philosophy" data-category="all code">
+            <div class="bento-card-header">
+              <span class="bento-tag"><i class="fa-solid fa-award"></i> Sertifikasi Resmi</span>
+              <span class="badge-accent">September 2026</span>
+            </div>
+            <div class="philosophy-body">
+              <h4>Sertifikat Kompetensi Keahlian (UKK)</h4>
+              <p>
+                <strong>Rekayasa Perangkat Lunak &bull; SMKN 1 Kawali</strong><br>
+                Sertifikasi uji kompetensi resmi yang menguji dan memvalidasi keahlian dalam perancangan antarmuka, pembuatan basis data, penulisan kode back-end, dan pengujian sistem aplikasi.
+              </p>
+              <div class="dual-balance-bar">
+                <div class="balance-side code-side">
+                  <i class="fa-solid fa-circle-check"></i> Terverifikasi Kompeten
+                </div>
+                <div class="balance-center"><i class="fa-solid fa-medal"></i></div>
+                <div class="balance-side motor-side">
+                  <i class="fa-solid fa-school"></i> SMKN 1 KAWALI
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento Box 4: Keahlian Dasar & Proses Belajar -->
+          <div class="bento-item bento-mechanic-highlight" data-category="all code">
+            <div class="bento-card-header">
+              <span class="bento-tag"><i class="fa-solid fa-sliders"></i> Keahlian & Pembelajaran</span>
+              <span class="badge-accent">Tahap Pemula</span>
+            </div>
+            <div class="mech-body">
+              <h3>Keahlian Dasar & Terus Belajar</h3>
+              <p>Dasar kemampuan teknis dan soft skill yang masih terus saya asah dan pelajari sebagai siswa SMK:</p>
+              <ul class="mech-spec-list">
+                <li><i class="fa-solid fa-code text-cyan"></i> <strong>Hard Skills (Dasar):</strong> Memahami dasar HTML/CSS, Tailwind CSS, dasar JavaScript, dasar PHP (Laravel), dan basis data MySQL.</li>
+                <li><i class="fa-solid fa-users text-cyan"></i> <strong>Team Work:</strong> Terbiasa belajar bekerja sama dan saling bantu dalam tugas kelompok di sekolah.</li>
+                <li><i class="fa-solid fa-comments text-cyan"></i> <strong>Communication:</strong> Terus berlatih menyampaikan kendala dan berdiskusi secara terbuka seputar kode program.</li>
+                <li><i class="fa-solid fa-brain text-cyan"></i> <strong>Problem Solving:</strong> Belajar menelusuri pesan error dan mencari solusinya secara bertahap lewat dokumentasi.</li>
+                <li><i class="fa-solid fa-clock text-cyan"></i> <strong>Time Management:</strong> Berusaha disiplin membagi waktu antara pelajaran sekolah dan praktikum tugas proyek.</li>
+                <li><i class="fa-solid fa-layer-group text-cyan"></i> <strong>Alur Belajar:</strong> Mengenal alur dasar pembuatan web mulai dari rancangan tampilan hingga uji fungsi tombol.</li>
+              </ul>
+              <div class="mech-quote">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>"Sebagai siswa SMK, saya masih di tahap belajar dasar dan siap menerima arahan, masukan, serta bimbingan."</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento Box 5: Direct Fast Action -->
+          <div class="bento-item bento-fast-action" data-category="all code">
+            <div class="bento-card-header">
+              <span class="bento-tag"><i class="fa-solid fa-paper-plane"></i> Hubungi Cepat</span>
+            </div>
+            <div class="fast-action-body">
+              <h4>Tertarik Diskusi atau Kerjasama?</h4>
+              <p>Hubungi saya langsung untuk tawaran magang, PKL, atau rekrutmen Junior Web Developer:</p>
+              <div class="fast-phone-display">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>0813-2032-1738</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+                <a href="CV_Tirta_Ibnu_Wibowo.pdf" target="_blank" class="btn-fast-chat" style="background: linear-gradient(135deg, var(--accent-cyan), #0284c7); color: #07090e;">
+                  <i class="fa-solid fa-file-pdf"></i> Unduh CV Resmi (PDF)
+                </a>
+                <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20tertarik%20dengan%20CV%20kamu!"
+                  target="_blank" rel="noopener noreferrer" class="btn-fast-chat">
+                  Chat WhatsApp <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SKILLS MATRIX: KEAHLIAN TEKNIS & SOFTSKILL SESUAI CV -->
+    <section class="skills-matrix-section" id="skills-matrix">
+      <div class="container">
+
+        <div class="section-title-wrap">
+          <div class="sub-badge"><i class="fa-solid fa-sliders"></i> Tahap Pemula / Masih Belajar</div>
+          <h2 class="title-modern">Keahlian Teknis & <span class="accent-text">Soft Skill</span></h2>
+          <p class="section-intro">Tingkat kemampuan dasar yang saya pelajari selama di SMKN 1 Kawali. Nilai di bawah ini menggambarkan pemahaman awal saya yang masih terus diasah melalui latihan dan bimbingan.</p>
+        </div>
+
+        <div class="matrix-grid">
+          <!-- Column 1: Hard Skills (Teknis) -->
+          <div class="matrix-card card-rpl">
+            <div class="card-top-icon rpl-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="card-head">
+              <h3>Hard Skills (Keahlian Teknis)</h3>
+              <p>Pemahaman dasar teknologi web yang telah dipelajari</p>
+            </div>
+
+            <div class="skills-bars-container">
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-brands fa-html5 text-orange"></i> HTML & CSS (Web Dasar)</span>
+                  <span class="meter-score">50% &bull; Dasar Tampilan</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-cyan" style="width: 50%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-wind text-cyan"></i> Tailwind CSS (Utility Class)</span>
+                  <span class="meter-score">45% &bull; Pemula / Belajar Class</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-cyan" style="width: 45%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-brands fa-laravel text-red"></i> Laravel Framework (Dasar MVC)</span>
+                  <span class="meter-score">40% &bull; Belajar Routing & Controller</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-cyan" style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-database text-blue"></i> MySQL (Database Dasar)</span>
+                  <span class="meter-score">45% &bull; Dasar CRUD & Tabel</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-cyan" style="width: 45%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-brands fa-square-js text-yellow"></i> JavaScript (Interaktivitas Web)</span>
+                  <span class="meter-score">35% &bull; Pemula / Logika Sederhana</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-cyan" style="width: 35%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-brands fa-php text-purple"></i> PHP (Backend Dasar)</span>
+                  <span class="meter-score">40% &bull; Dasar Sintaks & Variabel</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-cyan" style="width: 40%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-disclaimer">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Penguasaan di atas merupakan estimasi jujur pemahaman saya saat ini. Saya masih aktif belajar dan selalu siap dibimbing lebih dalam.</span>
+            </div>
+
+            <div class="tools-tray">
+              <span class="tool-chip"><i class="fa-brands fa-laravel"></i> Laravel (Dasar)</span>
+              <span class="tool-chip"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="tool-chip"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+              <span class="tool-chip"><i class="fa-brands fa-square-js"></i> JavaScript</span>
+              <span class="tool-chip"><i class="fa-brands fa-git-alt"></i> Git/GitHub</span>
+              <span class="tool-chip"><i class="fa-solid fa-code"></i> VS Code</span>
+            </div>
+          </div>
+
+          <!-- Column 2: Soft Skills & Kebiasaan Belajar -->
+          <div class="matrix-card card-mech">
+            <div class="card-top-icon mech-icon">
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <div class="card-head">
+              <h3>Soft Skills & Sikap Belajar</h3>
+              <p>Kemampuan interpersonal yang terus dilatih saat praktik</p>
+            </div>
+
+            <div class="skills-bars-container">
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-people-group text-orange"></i> Team Work (Kerja Sama Tim)</span>
+                  <span class="meter-score">55% &bull; Belajar Kerja Kelompok</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-orange" style="width: 55%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-comments text-orange"></i> Communication (Komunikasi)</span>
+                  <span class="meter-score">50% &bull; Berlatih Diskusi Terbuka</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-orange" style="width: 50%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-brain text-yellow"></i> Problem Solving (Pemecahan Masalah)</span>
+                  <span class="meter-score">45% &bull; Belajar Menelusuri Bug</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-orange" style="width: 45%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-clock text-cyan"></i> Time Management (Manajemen Waktu)</span>
+                  <span class="meter-score">50% &bull; Berlatih Disiplin Waktu</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-orange" style="width: 50%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-compass-drafting text-green"></i> Alur UI/UX Sederhana</span>
+                  <span class="meter-score">40% &bull; Mengenal Tata Letak Web</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-orange" style="width: 40%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-meter">
+                <div class="meter-info">
+                  <span><i class="fa-solid fa-vial-circle-check text-orange"></i> Pengujian Web Dasar</span>
+                  <span class="meter-score">40% &bull; Uji Input & Form Sederhana</span>
+                </div>
+                <div class="meter-track">
+                  <div class="meter-fill fill-orange" style="width: 40%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-disclaimer">
+              <i class="fa-solid fa-seedling"></i>
+              <span>Selalu bersemangat menerima masukan, koreksi membangun, serta arahan praktis dari pembimbing atau mentor industri.</span>
+            </div>
+
+            <div class="tools-tray">
+              <span class="tool-chip"><i class="fa-solid fa-check"></i> Siap Dibimbing</span>
+              <span class="tool-chip"><i class="fa-solid fa-check"></i> Disiplin Praktikum</span>
+              <span class="tool-chip"><i class="fa-solid fa-check"></i> Kerja Kelompok</span>
+              <span class="tool-chip"><i class="fa-solid fa-check"></i> Semangat Belajar</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- PENGALAMAN KERJA & PROYEK (PERSIS SESUAI CV) -->
+    <section class="project-vault-section" id="project-vault">
+      <div class="container">
+
+        <div class="section-title-wrap">
+          <div class="sub-badge"><i class="fa-solid fa-briefcase"></i> Pengalaman Kerja & Proyek</div>
+          <h2 class="title-modern">Portofolio <span class="accent-text">Karya & Proyek</span></h2>
+          <p class="section-intro">Pengalaman nyata pengembangan sistem dan website yang tercantum dalam dokumen Curriculum Vitae.</p>
+        </div>
+
+        <div class="vault-grid">
+
+          <!-- Project Card 1: Website Company Profile (from CV) -->
+          <div class="vault-card" data-category="all code">
+            <div class="vault-card-banner banner-compro">
+              <div class="vault-category-badge"><i class="fa-solid fa-building"></i> Company Profile</div>
+              <div class="vault-mockup-graphic">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+            </div>
+            <div class="vault-card-body">
+              <div class="vault-tags">
+                <span class="v-tag">HTML</span>
+                <span class="v-tag">CSS / Tailwind</span>
+                <span class="v-tag">JavaScript</span>
+                <span class="v-tag">Responsive UI</span>
+              </div>
+              <h3 class="vault-title">Pengembangan Website Company Profile</h3>
+              
+              <ul class="project-points-list">
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Merancang dan membangun website company profile yang responsif, interaktif, dan optimal untuk meningkatkan branding digital klien/perusahaan.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Menerjemahkan kebutuhan informasi perusahaan menjadi struktur navigasi dan tata letak halaman web yang profesional menggunakan HTML, CSS/Tailwind, dan JavaScript.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Mengonfigurasi antarmuka (frontend) agar tampil sempurna dan responsif di berbagai perangkat (mobile, tablet, dan desktop).</span>
+                </li>
+              </ul>
+
+              <div class="vault-footer">
+                <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20tertarik%20dengan%20proyek%20Website%20Company%20Profile%20kamu"
+                  target="_blank" rel="noopener noreferrer" class="btn-vault-action">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Proyek Ini
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2: Sistem Pengolahan Data Siswa (from CV) -->
+          <div class="vault-card" data-category="all code">
+            <div class="vault-card-banner banner-datasiswa">
+              <div class="vault-category-badge"><i class="fa-solid fa-graduation-cap"></i> SMKN 1 KAWALI</div>
+              <div class="vault-mockup-graphic">
+                <i class="fa-solid fa-id-card-clip"></i>
+              </div>
+            </div>
+            <div class="vault-card-body">
+              <div class="vault-tags">
+                <span class="v-tag">PHP (Laravel)</span>
+                <span class="v-tag">MySQL</span>
+                <span class="v-tag">Arsitektur MVC</span>
+                <span class="v-tag">CRUD System</span>
+              </div>
+              <h3 class="vault-title">Pengembangan Sistem Pengolahan Data Siswa</h3>
+              
+              <ul class="project-points-list">
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Mengembangkan sistem informasi manajemen data siswa berbasis web menggunakan PHP (Laravel) dan basis data MySQL untuk mendigitalisasi pencatatan data akademik.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Membangun fitur CRUD (Create, Read, Update, Delete) data siswa secara lengkap, aman, dan terstruktur dengan menerapkan arsitektur MVC (Model-View-Controller).</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Mengoptimalkan alur kerja pencarian, filter, dan rekapitulasi data siswa guna mempercepat proses administrasi sekolah.</span>
+                </li>
+              </ul>
+
+              <div class="vault-footer">
+                <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20tertarik%20dengan%20proyek%20Sistem%20Data%20Siswa%20Laravel%20kamu"
+                  target="_blank" rel="noopener noreferrer" class="btn-vault-action">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Proyek Ini
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3: Website Penjualan Outfit Casual -->
+          <div class="vault-card" data-category="all code">
+            <div class="vault-card-banner banner-outfit">
+              <div class="vault-category-badge"><i class="fa-solid fa-bag-shopping"></i> E-Commerce RPL</div>
+              <div class="vault-mockup-graphic">
+                <i class="fa-solid fa-shirt"></i>
+              </div>
+            </div>
+            <div class="vault-card-body">
+              <div class="vault-tags">
+                <span class="v-tag">HTML5</span>
+                <span class="v-tag">Tailwind CSS</span>
+                <span class="v-tag">JavaScript DOM</span>
+                <span class="v-tag">WhatsApp Checkout</span>
+              </div>
+              <h3 class="vault-title">Pengembangan Website Penjualan Outfit Casual</h3>
+              
+              <ul class="project-points-list">
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Merancang dan membangun website e-commerce katalog pakaian casual (t-shirt, hoodie, celana cargo) dengan antarmuka yang modern, bersih, dan memikat.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Mengimplementasikan fitur pemilihan ukuran & varian, filter produk, keranjang belanja interaktif, serta sistem checkout order langsung ke WhatsApp.</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <span>Mengoptimalkan responsivitas tampilan dan kecepatan akses agar nyaman digunakan di berbagai perangkat smartphone maupun desktop.</span>
+                </li>
+              </ul>
+
+              <div class="vault-footer">
+                <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20tertarik%20dengan%20proyek%20Website%20Outfit%20Casual%20kamu"
+                  target="_blank" rel="noopener noreferrer" class="btn-vault-action">
+                  <i class="fa-brands fa-whatsapp"></i> Tanya Proyek Ini
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SERTIFIKASI & LISENSI RESMI SECTION (FROM CV) -->
+    <section class="certifications-section" id="certifications">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="sub-badge"><i class="fa-solid fa-award"></i> Pengakuan Kompetensi</div>
+          <h2 class="title-modern">Sertifikasi & <span class="accent-text">Lisensi Resmi</span></h2>
+          <p class="section-intro">Validasi kompetensi kejuruan resmi yang diperoleh dari SMKN 1 Kawali.</p>
+        </div>
+
+        <div class="cert-card-wrapper">
+          <div class="cert-card-left">
+            <div class="cert-badge-icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="cert-card-content">
+              <span class="cert-meta-tag"><i class="fa-solid fa-circle-check"></i> TERVALIDASI & KOMPETEN</span>
+              <h3 class="cert-card-title">Sertifikat Kompetensi Keahlian (UKK) Rekayasa Perangkat Lunak</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-school"></i> Diterbitkan oleh: <strong>SMKN 1 KAWALI</strong> &bull; September 2026</p>
+              <p class="cert-desc">
+                Bukti kompetensi resmi dalam bidang Rekayasa Perangkat Lunak (RPL). Mengesahkan kemampuan teknis dalam analisis kebutuhan pengguna, perancangan arsitektur MVC, pemrograman web (HTML, CSS/Tailwind, JavaScript, PHP Laravel), pengelolaan basis data MySQL, dan pengujian sistem aplikasi.
+              </p>
+            </div>
+          </div>
+
+          <div class="cert-card-right">
+            <a href="CV_Tirta_Ibnu_Wibowo.pdf" target="_blank" class="btn-cert-download">
+              <i class="fa-solid fa-file-pdf"></i> Unduh CV Resmi (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT HUB SECTION -->
+    <section class="contact-hub-section" id="contact-hub">
+      <div class="container">
+
+        <div class="contact-hub-wrapper">
+          <div class="contact-left-col">
+            <span class="sub-badge"><i class="fa-solid fa-satellite-dish"></i> Hubungi Langsung</span>
+            <h2 class="contact-big-heading">Mari Berdiskusi & <span class="accent-text">Bekerja Sama</span></h2>
+            <p class="contact-sub-text">
+              Saya terbuka untuk kesempatan kerja, tawaran magang/PKL, maupun proyek freelance web development. Silakan hubungi saya melalui jalur kontak di bawah ini:
+            </p>
+
+            <div class="contact-cards-stack">
+              <!-- WhatsApp Card -->
+              <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20melihat%20CV%20dan%20portofolio%20kamu"
+                target="_blank" rel="noopener noreferrer" class="hub-card hub-wa">
+                <div class="hub-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="hub-info">
+                  <span class="hub-label">WhatsApp / Telepon (Respon Cepat)</span>
+                  <span class="hub-value">0813-2032-1738</span>
+                </div>
+                <div class="hub-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+              </a>
+
+              <!-- Email Card -->
+              <a href="mailto:tirtaibnu5055@gmail.com" class="hub-card hub-email">
+                <div class="hub-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="hub-info">
+                  <span class="hub-label">Surat Elektronik (Email)</span>
+                  <span class="hub-value">tirtaibnu5055@gmail.com</span>
+                </div>
+                <div class="hub-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+              </a>
+
+              <!-- Location Card (from CV: Panjalu, Ciamis) -->
+              <div class="hub-card hub-school">
+                <div class="hub-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div class="hub-info">
+                  <span class="hub-label">Domisili & Asal Sekolah</span>
+                  <span class="hub-value">Panjalu, Ciamis, Jawa Barat</span>
+                  <small class="hub-detail">SMKN 1 KAWALI &bull; Rekayasa Perangkat Lunak (RPL)</small>
+                </div>
+              </div>
+
+              <!-- CV Download Card -->
+              <a href="CV_Tirta_Ibnu_Wibowo.pdf" target="_blank" class="hub-card" style="border-color: rgba(0, 240, 255, 0.4);">
+                <div class="hub-icon" style="background: rgba(0, 240, 255, 0.15); color: var(--accent-cyan);"><i class="fa-solid fa-file-pdf"></i></div>
+                <div class="hub-info">
+                  <span class="hub-label">Dokumen Riwayat Hidup</span>
+                  <span class="hub-value">Unduh File CV Tirta Ibnu Wibowo.pdf</span>
+                  <small class="hub-detail">Format PDF resmi siap cetak / lampiran lamaran kerja</small>
+                </div>
+                <div class="hub-arrow"><i class="fa-solid fa-download"></i></div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form Box -->
+          <div class="contact-right-col">
+            <div class="form-container-box">
+              <div class="form-top-header">
+                <h3><i class="fa-solid fa-paper-plane text-orange"></i> Kirim Pesan ke WhatsApp Tirta</h3>
+                <p>Isi formulir ini dan pesan Anda akan langsung otomatis terformat ke nomor WhatsApp saya.</p>
+              </div>
+
+              <form id="contactHubForm">
+                <div class="form-field">
+                  <label for="hubName">Nama Lengkap Anda</label>
+                  <input type="text" id="hubName" placeholder="Contoh: Pak Budi / HRD Perusahaan" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="hubCategory">Kategori Diskusi</label>
+                  <select id="hubCategory">
+                    <option value="Tawaran Kerja / Magang Junior Web Developer">Tawaran Kerja / Magang (Junior Web Dev)</option>
+                    <option value="Tanya Proyek: Website Company Profile">Tanya Proyek: Website Company Profile</option>
+                    <option value="Tanya Proyek: Sistem Data Siswa (Laravel)">Tanya Proyek: Sistem Data Siswa (Laravel)</option>
+                    <option value="Tanya Proyek: Website Penjualan Outfit">Tanya Proyek: Website Outfit Casual</option>
+                    <option value="Kerjasama Proyek Full-Stack Web">Kerjasama Proyek Web Development</option>
+                    <option value="Perkenalan & Networking">Silaturahmi / Networking</option>
+                  </select>
+                </div>
+
+                <div class="form-field">
+                  <label for="hubMessage">Pesan atau Pertanyaan</label>
+                  <textarea id="hubMessage" rows="4" placeholder="Tuliskan pesan Anda di sini secara singkat..."
+                    required></textarea>
+                </div>
+
+                <button type="submit" class="btn-hub-submit">
+                  <i class="fa-brands fa-whatsapp"></i> Kirim Pesan Sekarang
+                </button>
+              </form>
+
+              <div class="form-footer-hint">
+                <i class="fa-solid fa-shield-halved"></i> Nomor HP & Email Anda aman dan langsung diteruskan tanpa pihak ketiga.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODERN MINIMALIST FOOTER -->
+  <footer class="modern-footer">
+    <div class="container footer-wrapper">
+      <div class="footer-left">
+        <span class="footer-brand-title">TIRTA IBNU WIBOWO</span>
+        <p class="footer-meta">Junior Web Developer &bull; SMKN 1 KAWALI &bull; Panjalu, Ciamis, Jawa Barat</p>
+      </div>
+
+      <div class="footer-center">
+        <a href="#hero">Beranda</a>
+        <a href="#bento-profile">Profil</a>
+        <a href="#skills-matrix">Keahlian</a>
+        <a href="#project-vault">Proyek</a>
+        <a href="#certifications">Sertifikasi</a>
+        <a href="CV_Tirta_Ibnu_Wibowo.pdf" target="_blank">Unduh CV</a>
+        <a href="#contact-hub">Kontak</a>
+      </div>
+
+      <div class="footer-right">
+        <p>&copy; <span id="currentYear">2026</span> Tirta Ibnu Wibowo. Hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element for copy phone/email -->
+  <div class="toast-notification" id="toastNotification">
+    <i class="fa-solid fa-circle-check"></i> <span id="toastMessage">Nomor berhasil disalin!</span>
+  </div>
+
+  <!-- FLOATING QUICK WHATSAPP BUTTON -->
+  <a href="https://wa.me/6281320321738?text=Halo%20Tirta%20Ibnu%20Wibowo,%20saya%20melihat%20CV%20dan%20portofolio%20kamu!"
+    target="_blank" rel="noopener noreferrer" class="floating-garage-wa" title="WhatsApp Tirta Ibnu Wibowo">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="wa-bubble">Chat Tirta</span>
+  </a>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
